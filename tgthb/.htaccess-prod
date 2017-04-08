@@ -1,0 +1,36 @@
+DirectoryIndex views/pages/index.php
+IndexIgnore *
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /~joseu/tgthb/
+
+# Do not redirect assets.
+RewriteRule ^(files|img|styles)/ - [L]
+
+# Redict all HTTP traffix to HTTPS.
+RewriteCond %{HTTPS} !on [NC]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/~joseu/tgthb/$1 [R=301]
+
+# Not necessarily the most efficient way of doing this but it does what I want.
+
+# Cond: index OR index.php
+RewriteCond %{THE_REQUEST} ^GET.*index(\.php)? [NC]
+# Rule: index OR index.php OR index.htm OR index.html -> /~joseu/tgthb/
+RewriteRule ^(.*)/index(\.php|\.html?)?$ /~joseu/tgthb/ [R=301,L]
+
+# Hide views/pages/ from URL.
+RewriteCond %{THE_REQUEST} tgthb/views/pages/
+RewriteRule ^views/pages/(.*)(\.php|\.html?)$ $1 [R=301,L]
+
+# Hide extension.
+RewriteCond %{REQUEST_URI} !tgthb/views/pages/
+RewriteRule ^(.*)(\.php|\.html?)$ views/pages/$1.php [R=301,L]
+
+# Correctly route non-extension file to real file.
+RewriteCond %{REQUEST_URI} !tgthb/views/pages/
+RewriteRule ^(.*)(?!\.php|\.html?)$ views/pages/$1 [L]
+
+# Old page redirect.
+RewriteRule ^game_information\.(php|html?)$ about [R=301,NE,L]
+</IfModule>

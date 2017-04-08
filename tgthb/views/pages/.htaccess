@@ -1,0 +1,2 @@
+# I'm not a 100% sure why this is needed, I though the root htaccess redirects would have routed directly to the file but I guess not?
+DirectoryIndex index.php

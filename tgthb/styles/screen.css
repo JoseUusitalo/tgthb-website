@@ -1,0 +1,440 @@
+html
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+
+	color: #d3d3d3;
+	font-family: serif;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+
+body
+{
+	background: repeat url('../img/bg.gif');
+	margin: 1em auto;
+	padding: 0;
+	max-width: 970px;
+
+	/* Bootstrap overrides */
+	color: #d3d3d3;
+	font-family: serif;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+
+h1
+{
+	margin: 0;
+}
+
+h1, h2, h3
+{
+	color: #ffa500;
+	text-align: center;
+	font-variant-caps: small-caps;
+	letter-spacing: 0.05em;
+}
+
+h2
+{
+	font-size: 1.7em;
+}
+
+h3
+{
+	font-size: 1.3em;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+header h2
+{
+	margin-top: 0;
+}
+
+a:link
+{
+	color: #ffbcbc;
+}
+
+a:visited
+{
+	color: #ffee00;
+}
+
+a:hover
+{
+	color: #ffbcbc;
+}
+
+a:active
+{
+	color: white;
+}
+
+a:focus
+{
+	color: white;
+}
+
+a:focus img
+{
+	border: solid 2px white;
+}
+
+img
+{
+	max-width: 100% !important;
+}
+
+header
+{
+	position: relative;
+}
+
+nav
+{
+	margin-top: 1em;
+	color: white;
+	font-family: sans-serif;
+}
+
+nav ol
+{
+	list-style-type: none;
+	margin-bottom: 0;
+}
+
+nav ol li
+{
+	display: inline-block;
+	padding: 0 0.5em;
+}
+
+footer
+{
+	font-size: 0.9em;
+	font-variant: small-caps;
+	line-height: 1em;
+	text-align: center;
+}
+
+p.longtext
+{
+	text-align: justify;
+}
+
+p.description
+{
+	text-align: justify;
+	margin: 1em auto 0 auto;
+}
+
+.content-box
+{
+	background-color: #373b47;
+	border-radius: 1em;
+	padding: 1.5em;
+	margin: 0.5em auto;
+
+	-webkit-box-shadow: 0.5em 0.5em 0.1em 0 rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0.5em 0.5em 0.1em 0 rgba(0, 0, 0, 0.5);
+	box-shadow: 0.5em 0.5em 0.1em 0 rgba(0, 0, 0, 0.5);
+}
+
+.txt-center
+{
+	text-align: center;
+}
+
+.spacer,
+.spacer-padded
+{
+	border-right: solid 0.15em white;
+}
+
+.spacer-padded
+{
+	padding-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.indent
+{
+	margin-left: 1em;
+}
+
+.imgsource
+{
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.release-date
+{
+	margin-top: 0;
+}
+
+.download-button
+{
+	height: 3em;
+	line-height: 3em;
+	padding: 1em;
+
+	font-family: sans-serif;
+	color: white !important;
+	font-size: 1em;
+	text-decoration: none;
+
+	cursor: pointer;
+}
+
+a.download-button:link
+{
+	background-color: #a82a00;
+}
+
+a.download-button:visited
+{
+	background-color: #a82a00;
+}
+
+a.download-button:hover
+{
+	color: black !important;
+	background-color: orange;
+}
+
+a.download-button:active
+{
+	background-color: #a82a00;
+}
+
+.dev-name
+{
+	font-size: 1.2em;
+	font-variant-caps: small-caps;
+
+	display: block;
+	margin-left: 1.5em;
+}
+
+#skip
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 4em;
+	width: 12em;
+	margin-top: -1em; /* The very top of the page. */
+}
+
+#skip a
+{
+	/* Hidden under the header box. */
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0 1em;
+
+	color: white;
+	font-weight: bold;
+	font-size: 1em;
+	line-height: 1.2em;
+}
+
+#skip:hover a,
+#skip a:focus
+{
+	position: absolute;
+	top: 0;
+
+	background-color: #373b47;
+}
+
+#text-size-control
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 2.5em;
+	width: 15em;
+	margin-top: -1em; /* The very top of the page. */
+	padding: 0 1em;
+
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	background-color: #373b47;
+}
+
+#text-size-control button
+{
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+
+	color: white;
+	font-weight: bold;
+	font-size: 0.95em;
+}
+
+#text-size-control button:hover,
+#text-size-control button:focus
+{
+	text-decoration: underline;
+}
+
+#link-header-text
+{
+	/* Feels dirty but it works. */
+	display: none;
+}
+
+#cover-container
+{
+	text-align: center;
+}
+
+#download h2
+{
+	font-size: 1.5em;
+}
+
+#authors
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#jltatgames-logo-container
+{
+	text-align: right;
+}
+
+#wcag-logo-container
+{
+	text-align: left;
+}
+
+#source-code
+{
+	margin: 0.5em auto 0 auto;
+}
+
+/* Larger than xs. */
+@media (min-width: 768px)
+{
+	.left-box
+	{
+		padding-left: 0;
+		padding-right: 0.5em;
+		margin-bottom: 1em;
+	}
+
+	.right-box
+	{
+		padding-left: 0.5em;
+		padding-right: 0;
+		margin-bottom: 1em;
+	}
+
+	.full-height
+	{
+		height: 100%;
+	}
+
+	.row-eq-height
+	{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+	}
+
+	.cols2
+	{
+		-webkit-column-count: 2;
+		-webkit-column-gap: 1.5em;
+		-moz-column-count: 2;
+		-moz-column-gap: 1.5em;
+		column-count: 2;
+		column-gap: 1.5em;
+	}
+
+	.cols3
+	{
+		-webkit-column-count: 3;
+		-webkit-column-gap: 1.5em;
+		-moz-column-count: 3;
+		-moz-column-gap: 1.5em;
+		column-count: 3;
+		column-gap: 1.5em;
+	}
+}
+
+/* xs */
+@media (max-width: 768px)
+{
+	.nopad-xs
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.txt-xs-center
+	{
+		text-align: center !important;
+	}
+
+	.pad-xs-top
+	{
+		padding-top: 1em;
+	}
+
+	.cols2
+	{
+		-webkit-column-count: 2;
+		-webkit-column-gap: 1.5em;
+		-moz-column-count: 2;
+		-moz-column-gap: 1.5em;
+		column-count: 2;
+		column-gap: 1.5em;
+	}
+
+	/* 2 columns only. */
+	.cols3
+	{
+		-webkit-column-count: 2;
+		-webkit-column-gap: 1.5em;
+		-moz-column-count: 2;
+		-moz-column-gap: 1.5em;
+		column-count: 2;
+		column-gap: 1.5em;
+	}
+}
+
+/* Smaller than xs. */
+@media (max-width: 640px)
+{
+	/* 1 column only. */
+	.cols2
+	{
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+	}
+
+	/* 1 column only. */
+	.cols3
+	{
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+		column-count: 1;
+	}
+}
