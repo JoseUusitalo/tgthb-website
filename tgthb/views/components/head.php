@@ -17,6 +17,9 @@
 	<meta property="og:image:width" content="1042"/>
 	<meta property="og:image:height" content="193"/>
 
+	<link rel="stylesheet" type="text/css" media="screen" href="styles/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" media="screen" href="styles/screen.css"/>
+
 	<script type="application/ld+json">
 		{
 		  "@context": "http://schema.org",
@@ -66,9 +69,6 @@
 		?>
 	}
 	</script>
-
-	<link rel="stylesheet" type="text/css" media="screen" href="styles/bootstrap.min.css"/>
-	<link rel="stylesheet" type="text/css" media="screen" href="styles/screen.css"/>
 
 	<script>
 		function resizeText(multiplier) {

@@ -10,7 +10,7 @@ RewriteBase /joseu/tgthb/
 # Do not redirect assets.
 RewriteRule ^(files|img|styles)/ - [L]
 
-# Redict all HTTP traffic to HTTPS.
+# Redirect all HTTP traffic to HTTPS.
 # Development environment has no HTTPS.
 #RewriteCond %{HTTPS} !on [NC]
 #RewriteRule ^(.*)$ https://%{HTTP_HOST}/~joseu/tgthb/$1 [R=301]

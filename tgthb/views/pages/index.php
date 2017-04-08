@@ -51,8 +51,10 @@ include("../components/header.php");
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-12"><p id="source-code"><a id="link-github" href="https://github.com/JoseUusitalo/tgthb">View source code and development
-								files on GitHub.com</a></p></div>
+					<div class="col-xs-12">
+						<div id="source-code"><a id="link-github-game" href="https://github.com/JoseUusitalo/tgthb">View game source code and development files on GitHub.com</a></div>
+						<div id="source-code"><a id="link-github-website" href="https://github.com/JoseUusitalo/tgthb-website">View website source code on GitHub.com</a></div>
+					</div>
 				</div>
 			</section>
 		</div>
