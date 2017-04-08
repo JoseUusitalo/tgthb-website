@@ -1,6 +1,5 @@
 DirectoryIndex views/pages/index.php
-# Not supported in development environment.
-#IndexIgnore *
+IndexIgnore *
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -38,3 +37,55 @@ RewriteRule ^(.*)(?!\.php|\.html?)$ views/pages/$1 [L]
 # Old page redirect.
 RewriteRule ^game_information\.(php|html?)$ about [R=301,NE,L]
 </IfModule>
+
+# None of this is supported on the university server.
+
+## Apparently Apache 2.4 doesn't use mod_deflate.
+#<IfModule mod_filter.c>
+#AddType text/css .css
+#AddType text/javascript .js
+#
+#SetOutputFilter DEFLATE
+#AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml text/javascript application/x-javascript application/javascript application/x-httpd-php
+#
+#BrowserMatch ^Mozilla/4 gzip-only-text/html
+#BrowserMatch ^Mozilla/4\.0[678] no-gzip
+#BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+#BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+#
+## Do not compress images.
+#SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip
+#
+#Header append Vary User-Agent env=!dont-vary
+#</IfModule>
+#
+#<IfModule mod_headers.c>
+## 1 Week
+#<filesMatch ".(ico|gif|jpe?g|png)$">
+#Header set Cache-Control "max-age=604800, public"
+#</filesMatch>
+#
+## 1 Day
+#<filesMatch ".(js|css)$">
+#Header set Cache-Control "max-age=86400, public"
+#</filesMatch>
+#
+## 4 Hours
+#<filesMatch ".(php|txt|html?)$">
+#Header set Cache-Control "max-age=14400, must-revalidate"
+#</filesMatch>
+#</IfModule>
+#
+#<IfModule mod_expires.c>
+#ExpiresActive On
+#ExpiresDefault "access plus 1 month"
+#
+#ExpiresByType image/x-icon "access plus 1 week"
+#ExpiresByType image/gif "access plus 1 week"
+#ExpiresByType image/png "access plus 1 week"
+#ExpiresByType image/jpg "access plus 1 week"
+#ExpiresByType image/jpeg "access plus 1 week"
+#
+#ExpiresByType text/css "access 1 day"
+#ExpiresByType application/javascript "access plus 1 day"
+#</IfModule>

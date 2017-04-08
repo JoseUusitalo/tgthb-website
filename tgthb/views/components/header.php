@@ -1,6 +1,5 @@
 <?php include("head.php"); ?>
 <body class="--center container-fluid">
-<?php include_once("analytics.php"); ?>
 <header class="row">
 	<div id="skip"><a id="link-skip" href="#main">Skip to Main Content</a></div>
 	<div id="text-size-control">Change text size:
