@@ -305,6 +305,10 @@ a.download-button:active
 	font-size: 1.5em;
 }
 
+#cover-container img {
+	max-height: 512px;
+}
+
 #authors
 {
 	list-style-type: none;
