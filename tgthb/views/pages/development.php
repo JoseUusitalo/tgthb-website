@@ -69,7 +69,7 @@ include("../components/header.php");
 			<div class="row">
 				<div class="col-xs-12 col-sm-8">
 					<div class="cols2">
-						<p class="longtext">Tales of Gods and Treachery: The Hunt for <span lang="is">Bálbrandr</span> was made by three first-year
+						<p class="longtext">Tales of Gods and Treachery: The Hunt for <span lang="non">Bálbrandr</span> was made by three first-year
 							<a id="link-ict" href="https://en.wikipedia.org/wiki/Information_and_communications_technology" title="Read more about Information and communications technology at Wikipedia"><abbr title="Information and communications technology">ICT</abbr></a> students as a final project for their game development course. All three
 							study at <a id="link-metropolia" href="http://www.metropolia.fi/en/" title="Go to the university's home page">Metropolia University
 							of Applied Sciences</a>. The development took <time datetime="P32D"> four and a half weeks</time> and consisted of three parts:

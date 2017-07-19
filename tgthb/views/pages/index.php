@@ -23,8 +23,7 @@ include("../components/header.php");
 	<main id="main" tabindex="-1">
 		<div class="row">
 			<section id="download" aria-labelledby="heading-downloads" class="col-xs-12 content-box txt-center">
-				<!-- Icelandic is used because Old Norse is not a valid language value in HTML and probably never will be plus modern Icelandic is sort of close in terms of pronunciation. -->
-				<header><h2 id="heading-downloads">Download Tales of Gods and Treachery: The Hunt for <span lang="is">Bálbrandr</span></h2></header>
+				<header><h2 id="heading-downloads">Download Tales of Gods and Treachery: The Hunt for <span lang="non">Bálbrandr</span></h2></header>
 
 				<div class="row">
 					<div class="col-xs-12 col-sm-6">
@@ -80,7 +79,7 @@ include("../components/header.php");
 				<section aria-labelledby="plot" class="content-box full-height">
 					<header><h2 id="plot">Plot</h2></header>
 
-					<p class="longtext">Tales of Gods and Treachery: The Hunt for <span lang="is">Bálbrandr</span> is an interactive fiction alternate history
+					<p class="longtext">Tales of Gods and Treachery: The Hunt for <span lang="non">Bálbrandr</span> is an interactive fiction alternate history
 						game set in <time datetime="1950">1950</time>. The game takes place in a multitude of countries across four continents. Some major
 						locations include Greenland, Bulgaria, and Tibet.</p>
 

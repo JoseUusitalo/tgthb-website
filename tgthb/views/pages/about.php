@@ -125,17 +125,17 @@ include("../components/header.php");
 				<section aria-labelledby="viking-myth">
 					<header><h2 id="viking-myth">Viking Myth</h2></header>
 					<div class="cols3">
-						<p class="longtext">Erik the Red discovered a sword in the crater of a meteorite near <span lang="is">Maniitsoq</span>, Greenland, circa
-							<time datetime="1000">1000</time>. According to the folk story, the sword was <span lang="is">Bálbrandr</span>, Loki's weapon that
+						<p class="longtext">Erik the Red discovered a sword in the crater of a meteorite near <span lang="non">Maniitsoq</span>, Greenland, circa
+							<time datetime="1000">1000</time>. According to the folk story, the sword was <span lang="non">Bálbrandr</span>, Loki's weapon that
 							fell all the way to Earth during his fight with Thor. The god of thunder won and bound Loki, so the latter could not retrieve his
 							sword.</p>
 
-						<p class="longtext"><span lang="is">Bálbrandr</span> consisted of two parts: a metal blade that made its beholder invincible and a gem
+						<p class="longtext"><span lang="non">Bálbrandr</span> consisted of two parts: a metal blade that made its beholder invincible and a gem
 							that prolonged life. When the amulet was placed in the sword's hilt, the owner became immortal. The sword and gem separated upon the
-							weapon's fall to Earth. The gem was never seen again, and the sword became known as <span lang="is">Gu&#240;hj&#491;rr</span>.</p>
+							weapon's fall to Earth. The gem was never seen again, and the sword became known as <span lang="non">Gu&#240;hj&#491;rr</span>.</p>
 
-						<p class="longtext"><span lang="is">Gu&#240;hj&#491;rr</span> was passed onto Erik's son, <span lang="is">Leifr Eiríksson</span>, the
-							first European to set foot on continental North America. <span lang="is">Leifr</span> is believed to have died between the years
+						<p class="longtext"><span lang="non">Gu&#240;hj&#491;rr</span> was passed onto Erik's son, <span lang="non">Leifr Eiríksson</span>, the
+							first European to set foot on continental North America. <span lang="non">Leifr</span> is believed to have died between the years
 							<time datetime="1019">1019</time> and <time datetime="1025">1025</time> - the conditions of his death are very unclear. During this
 							time, the precious sword was lost and it disappeared from Norse mythology.</p>
 					</div>
@@ -176,19 +176,19 @@ include("../components/header.php");
 			<div class="col-xs-12 col-sm-6 left-box nopad-xs">
 				<section aria-labelledby="items" class="content-box full-height">
 					<header><h2 id="items">Central Items</h2></header>
-					<h3 lang="is">Bálbrandr</h3>
+					<h3 lang="non">Bálbrandr</h3>
 
-					<p>The mythical sword of <span lang="is">Hve&#240;rungr</span>. It grants immortality to the one who possesses it. In the hands of <span
-							lang="is">Hve&#240;rungr</span> the blade is said to be engulfed in flames.</p>
+					<p>The mythical sword of <span lang="non">Hve&#240;rungr</span>. It grants immortality to the one who possesses it. In the hands of <span
+							lang="non">Hve&#240;rungr</span> the blade is said to be engulfed in flames.</p>
 
-					<h3 lang="is">Fj&#491;rsteinn</h3>
+					<h3 lang="non">Fj&#491;rsteinn</h3>
 
-					<p>Gem that grants immortality if placed within the hilt of <span lang="is">Gu&#240;hj&#491;rr</span>. On its own the gem merely makes the
+					<p>Gem that grants immortality if placed within the hilt of <span lang="non">Gu&#240;hj&#491;rr</span>. On its own the gem merely makes the
 						wearer have extraordinary health and protection from all diseases.</p>
 
-					<h3 lang="is">Gu&#240;hj&#491;rr</h3>
+					<h3 lang="non">Gu&#240;hj&#491;rr</h3>
 
-					<p>Part of <span lang="is">Hve&#240;rungr</span>'s mythical sword. It has magical powers which give the person who possesses it
+					<p>Part of <span lang="non">Hve&#240;rungr</span>'s mythical sword. It has magical powers which give the person who possesses it
 						invincibility.</p>
 				</section>
 			</div>
@@ -208,9 +208,9 @@ include("../components/header.php");
 
 					<p>A 142 year old Bulgarian historian and adventurer living in a secluded monastery.</p>
 
-					<h3 lang="is">Jens</h3>
+					<h3 lang="non">Jens</h3>
 
-					<p>A private collector of Viking artifacts living in <span lang="is">Jakobshavn</span>, Greenland.</p>
+					<p>A private collector of Viking artifacts living in <span lang="non">Jakobshavn</span>, Greenland.</p>
 				</section>
 			</div>
 		</div>
