@@ -5,12 +5,12 @@ IndexIgnore *
 RewriteEngine On
 RewriteBase /~joseu/tgthb/
 
+# Redirect all HTTP traffic to HTTPS.
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
 # Do not redirect assets.
 RewriteRule ^(files|img|styles)/ - [L]
-
-# Redirect all HTTP traffic to HTTPS.
-RewriteCond %{HTTPS} !on [NC]
-RewriteRule ^(.*)$ https://%{HTTP_HOST}/~joseu/tgthb/$1 [R=301]
 
 # Not necessarily the most efficient way of doing this but it does what I want.
 
