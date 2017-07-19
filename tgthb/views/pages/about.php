@@ -186,7 +186,7 @@ include("../components/header.php");
 					<p>Gem that grants immortality if placed within the hilt of <span lang="is">Gu&#240;hj&#491;rr</span>. On its own the gem merely makes the
 						wearer have extraordinary health and protection from all diseases.</p>
 
-					<h3 lang="is"><span lang="is"><span lang="is">Gu&#240;hj&#491;rr</span></span></h3>
+					<h3 lang="is">Gu&#240;hj&#491;rr</h3>
 
 					<p>Part of <span lang="is">Hve&#240;rungr</span>'s mythical sword. It has magical powers which give the person who possesses it
 						invincibility.</p>
