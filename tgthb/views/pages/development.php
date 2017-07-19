@@ -87,7 +87,7 @@ include("../components/header.php");
 					<p id="authordesc">The developers and their roles.</p>
 					<ul id="authors" aria-labelledby="authordesc">
 						<li>Lead Programmer:<span class="dev-name" lang="fi">Jose Uusitalo</span></li>
-						<li>Lead Writer:<span id="dev-lea" class="dev-name" lang="fi">Léa Subrenat (<a id="link-lea-portfolio" href="https://leasubrenat-portfolio.herokuapp.com/"
+						<li>Lead Writer:<span class="dev-name"><span id="dev-lea" lang="fi">Léa Subrenat</span> (<a id="link-lea-portfolio" href="https://leasubrenat-portfolio.herokuapp.com/"
 						title="Go to Léa's portfolio" aria-labelledby="link-lea-portfolio dev-lea">portfolio</a>)</span></li> <li>Lead <abbr title="Quality Assurance">QA</abbr>
 						& Database Management:<span class="dev-name" lang="fi">Tuomas Kuutti</span></li>
 					</ul>
