@@ -12,8 +12,8 @@ include("../components/header.php");
 				<nav class="col-xs-12">
 					<ol>
 						<li class="spacer">Home</li>
-						<li class="spacer"><a id="link-page-about" href="about.php">About the Game</a></li>
-						<li><a id="link-page-development" href="development.php">Development & Developers</a></li>
+						<li class="spacer"><a id="link-page-about" href="about.php" title="Read more about the game">About the Game</a></li>
+						<li><a id="link-page-development" href="development.php" title="Read about the game's technical implementation details and the developers">Development & Developers</a></li>
 					</ol>
 				</nav>
 			</div>
@@ -34,7 +34,7 @@ include("../components/header.php");
 									<abbr title="Kibibyte">KiB</abbr></p>
 							</div>
 							<div class="col-xs-12">
-								<a id="link-download-game" href="files/TGTHB_v1_0.zip" class="download-button">Download Version 1.0</a>
+								<a id="link-download-game" class="download-button" href="files/TGTHB_v1_0.zip">Download Version 1.0</a>
 							</div>
 						</div>
 					</div>
@@ -65,10 +65,9 @@ include("../components/header.php");
 					<header><h2 id="cover">Box Art</h2></header>
 					<div id="cover-container">
 						<a id="link-cover"
-						   href="img/tgthb_cover.png"
-						   title="The fictional box cover for the Tales of Gods and Treachery: The Hunt for Bálbrandr reminiscent of old Infocom interactive fiction game box covers. The box art depicts a desolate snowy landscape at night with a prominent fiery yellow-green meteorite landing towards the center on the foreground with a second similar meteorite visible farther in the background on the left side. Additionally a small settlement can be seen in the background on the right side."><img
+						   href="img/tgthb_cover.png"><img
 								src="img/tgthb_cover_small.png"
-								alt="The fictional box cover for the Tales of Gods and Treachery: The Hunt for Bálbrandr."
+								alt="The fictional box cover for the Tales of Gods and Treachery: The Hunt for Bálbrandr"
 								aria-label="The fictional box cover for the Tales of Gods and Treachery: The Hunt for Bálbrandr reminiscent of old
 							Infocom interactive fiction game box covers. The box art depicts a desolate snowy landscape at night with a prominent fiery
 							yellow-green meteorite landing towards the center on the foreground with a second similar meteorite visible farther in the

@@ -81,9 +81,9 @@ include("../components/header.php");
 ?>
 				<nav class="col-xs-12">
 					<ol>
-						<li class="spacer"><a id="link-page-index" href="index.php">Home</a></li>
+						<li class="spacer"><a id="link-page-index" href="index.php" title="Go to the home page">Home</a></li>
 						<li class="spacer">About the Game</li>
-						<li><a id="link-page-development" href="development.php">Development & Developers</a></li>
+						<li><a id="link-page-development" href="development.php" title="Read about the game's technical implementation details and the developers">Development & Developers</a></li>
 					</ol>
 				</nav>
 			</div>
@@ -113,7 +113,7 @@ include("../components/header.php");
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-xs-12"><a id="link-map-spoilers" href="img/tgthb_world_map_with_spoilers.png">Download World Map with Spoilers</a>
+						<div class="col-xs-12"><a id="link-map-spoilers" href="img/tgthb_world_map_with_spoilers.png" title="View an image of the game world that contains story spoilers">Download World Map with Spoilers</a>
 						</div>
 					</div>
 				</section>

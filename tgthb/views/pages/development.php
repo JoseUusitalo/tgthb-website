@@ -51,8 +51,8 @@ include("../components/header.php");
 ?>
 				<nav class="col-xs-12">
 					<ol>
-						<li class="spacer"><a id="link-page-index" href="index.php">Home</a></li>
-						<li class="spacer"><a id="link-page-about" href="about.php">About the Game</a></li>
+						<li class="spacer"><a id="link-page-index" href="index.php" title="Go to the home page">Home</a></li>
+						<li class="spacer"><a id="link-page-about" href="about.php" title="Read more about the game">About the Game</a></li>
 						<li>Development & Developers</li>
 					</ol>
 				</nav>
@@ -70,17 +70,16 @@ include("../components/header.php");
 				<div class="col-xs-12 col-sm-8">
 					<div class="cols2">
 						<p class="longtext">Tales of Gods and Treachery: The Hunt for <span lang="is">Bálbrandr</span> was made by three first-year
-							<a id="link-ict" href="https://en.wikipedia.org/wiki/Information_and_communications_technology"><abbr title="Information
-							and communications technology">ICT</abbr></a>
-							students as a final project for their game development course. All three study at <a id="link-metropolia" href="http://www.metropolia.fi/en/">Metropolia
-								University of Applied Sciences</a>. The development took <time datetime="P32D">four and a half weeks</time> and consisted of
-							three parts: story design, database development and coding.</p>
+							<a id="link-ict" href="https://en.wikipedia.org/wiki/Information_and_communications_technology" title="Read more about Information and communications technology at Wikipedia"><abbr title="Information and communications technology">ICT</abbr></a> students as a final project for their game development course. All three
+							study at <a id="link-metropolia" href="http://www.metropolia.fi/en/" title="Go to the university's home page">Metropolia University
+							of Applied Sciences</a>. The development took <time datetime="P32D"> four and a half weeks</time> and consisted of three parts:
+							story design, database development and coding.</p>
 
 						<p class="longtext">The initial website for the game created as part of the game development course but the structure of the site was
 							later significantly updated in <time datetime="2017-04">April of 2017</time> for practice in web development as well as in
-							implementing accessibility features according to the <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.0. However the
-							contents of this website (barring minor rewording and correcting of typos) have been kept the same for posterity as the developers
-							currently do not have any plans to continue working on the game.</p>
+							implementing accessibility features according to the <a id="link-wcag" href="https://www.w3.org/TR/WCAG20/" title="Go to the Web Content Accessibility Guidelines 2.0 home page"><abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.0</a>. However the contents of this website (barring minor rewording and correcting
+							of typos) have been kept the same for posterity as the developers currently do not have any plans to continue working on the game.
+							</p>
 					</div>
 				</div>
 
@@ -88,8 +87,9 @@ include("../components/header.php");
 					<p id="authordesc">The developers and their roles.</p>
 					<ul id="authors" aria-labelledby="authordesc">
 						<li>Lead Programmer:<span class="dev-name" lang="fi">Jose Uusitalo</span></li>
-						<li>Lead Writer:<span class="dev-name" lang="fi">Léa Subrenat</span></li>
-						<li>Lead <abbr title="Quality Assurance">QA</abbr> & Database Management:<span class="dev-name" lang="fi">Tuomas Kuutti</span></li>
+						<li>Lead Writer:<span id="dev-lea" class="dev-name" lang="fi">Léa Subrenat (<a id="link-lea-portfolio" href="https://leasubrenat-portfolio.herokuapp.com/"
+						title="Go to Léa's portfolio" aria-labelledby="link-lea-portfolio dev-lea">portfolio</a>)</span></li> <li>Lead <abbr title="Quality Assurance">QA</abbr>
+						& Database Management:<span class="dev-name" lang="fi">Tuomas Kuutti</span></li>
 					</ul>
 				</div>
 			</div>
@@ -99,19 +99,18 @@ include("../components/header.php");
 			<div class="row">
 				<div class="col-xs-12 col-sm-6">
 					<ul>
-						<li><a id="link-python" href="https://www.python.org/download/releases/3.3.5/">Python 3.3.5</a></li>
-						<li><a id="link-mysql" href="https://dev.mysql.com/downloads/mysql/5.6.html">MySQL Community Server 5.6.21</a></li>
-						<li><a id="link-connector" href="https://pypi.python.org/pypi/mysql-connector-python/1.2.3">MySQL Connector/Python 1.2.3</a></li>
-						<li><a id="link-gedit" href="https://wiki.gnome.org/Apps/Gedit">gedit</a></li>
+						<li><a id="link-python" href="https://www.python.org/download/releases/3.3.5/" title="Go to Python 3.3.5 download page" aria-labelledby="tools link-python">Python 3.3.5</a></li>
+						<li><a id="link-mysql" href="https://dev.mysql.com/downloads/mysql/5.6.html" title="Go to MySQL Community Server 5.6 download page" aria-labelledby="tools link-mysql">MySQL Community Server 5.6.21</a></li>
+						<li><a id="link-connector" href="https://pypi.python.org/pypi/mysql-connector-python/1.2.3" title="Go to Python MySQL Connector download page" aria-labelledby="tools link-connector">MySQL Connector/Python 1.2.3</a></li>
+						<li><a id="link-gedit" href="https://wiki.gnome.org/Apps/Gedit" title="Go to gedit home page" aria-labelledby="tools link-gedit">gedit</a></li>
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-6">
 					<ul>
-						<li><a id="link-notepadpp" href="http://notepad-plus-plus.org/download/v6.6.9.html">Notepad++</a></li>
-						<li><a id="link-eclipse" href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunasr1">Eclipse (Luna version)
-						</a></li>
-						<li><a id="link-pydev" href="http://pydev.org/download.html">PyDev Eclipse Add-On</a></li>
-						<li><a id="link-lchart" href="https://www.lucidchart.com">Lucid Chart</a></li>
+						<li><a id="link-notepadpp" href="https://notepad-plus-plus.org/" title="Go to Notepad++ home page" aria-labelledby="tools link-notepadpp">Notepad++</a></li>
+						<li><a id="link-eclipse" href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunasr1" title="Go to Eclipse Luna download page" aria-labelledby="tools link-eclipse">Eclipse (Luna version)</a></li>
+						<li><a id="link-pydev" href="http://www.pydev.org/download.html" title="Go to PyDev home page" aria-labelledby="tools link-pydev">PyDev Eclipse Add-On</a></li>
+						<li><a id="link-lchart" href="https://www.lucidchart.com" title="Go to Lucid Chart home page" aria-labelledby="tools link-lchart">Lucid Chart</a></li>
 					</ul>
 				</div>
 			</div>
@@ -189,9 +188,7 @@ Replace: cursor.execute\(\"INSERT INTO inventory VALUES \('\1','\2','\3','\4','\
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-3 txt-center"><a id="link-pooka-img" href="http://thepookapicks.wordpress.com/"><img src="img/coffee2.gif"
-				alt="Cartoon animation of a girl chugging an
-																											  endless mug of coffee."></a>
-
+				alt="Cartoon animation of a girl chugging an endless mug of coffee."></a>
 					<div class="imgsource"><a id="link-pooka-source" href="http://thepookapicks.wordpress.com/">Source: The Pooka Picks</a></div>
 				</div>
 			</div>
